@@ -2,96 +2,96 @@
     "format_version": "1.16.0",
     "minecraft:entity": {
       "description": {
-        "identifier": "swag:autism_creature",
+        "identifier": "autism_creatures:autism_creature",
         "is_spawnable": true,
         "is_summonable": true,
         "is_experimental": false
       },
       "component_groups": {
-        "swag:autism_creature": {
+        "autism_creatures:autism_creature": {
           "minecraft:loot": {
             "table": "loot_tables/entities/"
           }
         },
-          "swag:autism_creature_default": {
+          "autism_creatures:autism_creature_default": {
             "minecraft:variant": { "value": 0 }
           },
-          "swag:autism_creature_red": {
+          "autism_creatures:autism_creature_red": {
             "minecraft:variant": { "value": 1 }
           },
-          "swag:autism_creature_pink": {
+          "autism_creatures:autism_creature_pink": {
             "minecraft:variant": { "value": 2 }
           },
-          "swag:autism_creature_yellow": {
+          "autism_creatures:autism_creature_yellow": {
             "minecraft:variant": { "value": 3 }
           },
-          "swag:autism_creature_blue": {
+          "autism_creatures:autism_creature_blue": {
             "minecraft:variant": { "value": 4 }
           },
-          "swag:autism_creature_susred": {
+          "autism_creatures:autism_creature_susred": {
             "minecraft:variant": { "value": 5 }
           },
-          "swag:autism_creature_scene": {
+          "autism_creatures:autism_creature_scene": {
             "minecraft:variant": { "value": 6 }
           },
-          "swag:autism_creature_cake": {
+          "autism_creatures:autism_creature_cake": {
             "minecraft:variant": { "value": 7}
           },
-          "swag:autism_creature_dino": {
+          "autism_creatures:autism_creature_dino": {
             "minecraft:variant": { "value": 8}
           },
-          "swag:autism_creature_angel": {
+          "autism_creatures:autism_creature_angel": {
             "minecraft:variant": { "value": 9}
           },
-          "swag:autism_creature_turtle": {
+          "autism_creatures:autism_creature_turtle": {
             "minecraft:variant": { "value": 10}
           },
-          "swag:autism_creature_propellor": {
+          "autism_creatures:autism_creature_propellor": {
             "minecraft:variant": { "value": 11}
           },
-          "swag:autism_creature_clown": {
+          "autism_creatures:autism_creature_clown": {
             "minecraft:variant": { "value": 12}
           },
-          "swag:autism_creature_shark": {
+          "autism_creatures:autism_creature_shark": {
             "minecraft:variant": { "value": 13}
           },
-          "swag:autism_creature_slenderman": {
+          "autism_creatures:autism_creature_slenderman": {
             "minecraft:variant": { "value": 14}
           },
-          "swag:autism_creature_bee": {
+          "autism_creatures:autism_creature_bee": {
             "minecraft:variant": { "value": 15}
           },
-          "swag:autism_creature_creature": {
+          "autism_creatures:autism_creature_creature": {
             "minecraft:variant": { "value": 16}
           },
-          "swag:autism_creature_cat": {
+          "autism_creatures:autism_creature_cat": {
             "minecraft:variant": { "value": 17}
           },
-          "swag:autism_creature_pikachu": {
+          "autism_creatures:autism_creature_pikachu": {
             "minecraft:variant": { "value": 18}
           },
-          "swag:autism_creature_sonic": {
+          "autism_creatures:autism_creature_sonic": {
             "minecraft:variant": { "value": 19}
           },
-          "swag:autism_creature_afton": {
+          "autism_creatures:autism_creature_afton": {
             "minecraft:variant": { "value": 20}
           },
-          "swag:autism_creature_unknown": {
+          "autism_creatures:autism_creature_unknown": {
             "minecraft:variant": { "value": 21}
           },
-          "swag:autism_creature_susblue": {
+          "autism_creatures:autism_creature_susblue": {
             "minecraft:variant": { "value": 22}
           },
-          "swag:autism_creature_susgreen": {
+          "autism_creatures:autism_creature_susgreen": {
             "minecraft:variant": { "value": 23}
           },
-          "swag:autism_creature_susyellow": {
+          "autism_creatures:autism_creature_susyellow": {
             "minecraft:variant": { "value": 24}
           },
-          "swag:autism_creature_green": {
+          "autism_creatures:autism_creature_green": {
             "minecraft:variant": { "value": 25}
           },
-          "swag:autism_creature_dog": {
+          "autism_creatures:autism_creature_dog": {
             "minecraft:variant": { "value": 26}
           },
 
@@ -282,31 +282,31 @@
           "randomize": [
             {
               "weight": 40,
-              "add": { "component_groups": [ "swag:autism_creature_default" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_yellow" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_yellow" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_red" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_red" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_blue" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_blue" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_pink" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_bee" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_bee" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_dog" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_dog" ] }
             }
           ]
         },
@@ -314,35 +314,35 @@
           "randomize": [
             {
               "weight": 40,
-              "add": { "component_groups": [ "swag:autism_creature_default" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_green" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_green" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_yellow" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_yellow" ] }
             },
             {
               "weight": 30,
-              "add": { "component_groups": [ "swag:autism_creature_propellor" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_propellor" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_bee" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_bee" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_creature" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_creature" ] }
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "swag:autism_creature_pink" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
             },
             {
               "weight": 3,
-              "add": { "component_groups": [ "swag:autism_creature_cake" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_cake" ] }
             }
           ]
         },
@@ -354,111 +354,111 @@
               "randomize": [
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_default" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_red" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_red" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_pink" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_yellow" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_yellow" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_blue" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_blue" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_susred" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susred" ] }
                },
                {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_scene" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_scene" ] }
                },
                {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_cake" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_cake" ] }
                },
                {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_dino" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_dino" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_angel" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_angel" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_turtle" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_turtle" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_propellor" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_propellor" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_clown" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_clown" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_shark" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_shark" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_slenderman" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_slenderman" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_bee" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_bee" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_creature" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_creature" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_cat" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_cat" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_pikachu" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_pikachu" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_sonic" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_sonic" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_afton" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_afton" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_unknown" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_unknown" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_susblue" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susblue" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_susgreen" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susgreen" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_susyellow" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susyellow" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_green" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_green" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_dog" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_dog" ] }
                 }
               ]
             },
@@ -467,11 +467,11 @@
               "randomize": [
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_default" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_turtle" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_turtle" ] }
                 }
               ]
             },
@@ -480,31 +480,31 @@
               "randomize": [
                 {
                   "weight": 40,
-                  "add": { "component_groups": [ "swag:autism_creature_default" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
                 },
                 {
                   "weight": 30,
-                  "add": { "component_groups": [ "swag:autism_creature_yellow" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_yellow" ] }
                 },
                 {
                   "weight": 30,
-                  "add": { "component_groups": [ "swag:autism_creature_red" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_red" ] }
                 },
                 {
                   "weight": 30,
-                  "add": { "component_groups": [ "swag:autism_creature_blue" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_blue" ] }
                 },
                 {
                   "weight": 20,
-                  "add": { "component_groups": [ "swag:autism_creature_pink" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
                 },
                 {
                   "weight": 20,
-                  "add": { "component_groups": [ "swag:autism_creature_bee" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_bee" ] }
                 },
                 {
                   "weight": 20,
-                  "add": { "component_groups": [ "swag:autism_creature_dog" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_dog" ] }
                 }
               ]
             },
@@ -513,11 +513,11 @@
               "randomize": [
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_default" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
                 },
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "swag:autism_creature_turtle" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_turtle" ] }
                 }
               ]
             }

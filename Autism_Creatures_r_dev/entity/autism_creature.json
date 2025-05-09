@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
       "description": {
-        "identifier": "swag:autism_creature",
+        "identifier": "autism_creatures:autism_creature",
         "materials": { "default": "skeleton" },
         "textures": {
           "default": "textures/entity/autism_creature/default",
@@ -54,7 +54,7 @@
         },
         "render_controllers": [ "controller.render.default" ],
         "spawn_egg": {
-          "texture": "mod_tp_egg"
+          "texture": "autism_creature_egg"
         }
       }
     }
