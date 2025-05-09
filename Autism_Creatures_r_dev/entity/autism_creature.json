@@ -1,0 +1,61 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "swag:autism_creature",
+        "materials": { "default": "skeleton" },
+        "textures": {
+          "default": "textures/entity/autism_creature/default",
+          "red": "textures/entity/autism_creature/red",
+          "pink": "textures/entity/autism_creature/pink",
+          "yellow": "textures/entity/autism_creature/yellow",
+          "blue": "textures/entity/autism_creature/blue",
+          "susred": "textures/entity/autism_creature/susred",
+          "scene": "textures/entity/autism_creature/scene",
+          "cake": "textures/entity/autism_creature/cake",
+          "dino": "textures/entity/autism_creature/dino",
+          "angel": "textures/entity/autism_creature/angel",
+          "turtle": "textures/entity/autism_creature/turtle",
+          "propellor": "textures/entity/autism_creature/propellor",
+          "clown": "textures/entity/autism_creature/clown",
+          "shark": "textures/entity/autism_creature/shark",
+          "slenderman": "textures/entity/autism_creature/slenderman",
+          "bee": "textures/entity/autism_creature/bee",
+          "creature": "textures/entity/autism_creature/creature",
+          "cat": "textures/entity/autism_creature/cat",
+          "pikachu": "textures/entity/autism_creature/pikachu",
+          "sonic": "textures/entity/autism_creature/sonic",
+          "afton": "textures/entity/autism_creature/afton",
+          "unknown": "textures/entity/autism_creature/unknown",
+          "susblue": "textures/entity/autism_creature/susblue",
+          "susgreen": "textures/entity/autism_creature/susgreen",
+          "susyellow": "textures/entity/autism_creature/susyellow",
+          "green": "textures/entity/autism_creature/green",
+          "dog": "textures/entity/autism_creature/dog"
+        },
+        "geometry": {
+          "default": "geometry.autism_creature"
+        },
+        "animations": {
+          "walk": "animation.autism_creature.walk",
+          "look_at_target": "animation.common.look_at_target",
+          "sleeping": "animation.autism_creature.sleep",
+          "idle": "animation.autism_creature.idle",
+          "sitting": "animation.autism_creature.sit"
+        },
+        "scripts": {
+          "animate": [
+            { "walk": "query.modified_move_speed" },
+            {"look_at_target": "!query.is_sleeping"},
+            {"sleeping": "query.is_sleeping"},
+            { "idle": "!query.is_sleeping"},
+            { "sitting": "query.is_sitting" }
+          ]
+        },
+        "render_controllers": [ "controller.render.default" ],
+        "spawn_egg": {
+          "texture": "mod_tp_egg"
+        }
+      }
+    }
+  }

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.autism_creature.sit": {
+			"loop": true,
+			"bones": {
+				"Waist": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 0, -1]
+				},
+				"Head": {
+					"rotation": [45, 0, 0]
+				},
+				"Tail": {
+					"rotation": [45, 0, 0]
+				},
+				"FLLeg": {
+					"position": [0, 0, 2]
+				},
+				"FRLeg": {
+					"position": [0, 0, 2]
+				},
+				"BLLeg": {
+					"rotation": [-90, -45, 0],
+					"position": [1, -2.5, -1]
+				},
+				"BRLeg": {
+					"rotation": [-90, 45, 0],
+					"position": [-1, -2.5, -1]
+				}
+			}
+		}
+	}
+}

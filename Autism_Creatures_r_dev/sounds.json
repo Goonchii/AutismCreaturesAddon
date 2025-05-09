@@ -1,0 +1,38 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "swag:mango_merchant": {
+                "volume": 3.0,
+                 "pitch": [ 0.8, 1.2 ],
+                "events": {
+                    "hurt": "mob.mango.hurt",
+                    "death": "mob.mango.death",
+                    "ambient": "mob.mango.idle"
+                    }
+                },
+                "swag:spawn_tp": {
+                    "volume": 3.0,
+                    "pitch": [ 1, 1 ],
+                    "events": {
+                        "ambient": "mob.spawn_tp.idle",
+                        "hurt": "mob.spawn_tp.hurt",
+                        "death": "mob.spawn_tp.death"
+                    }
+                },
+                "swag:magmoo": {
+                    "events": {
+                        "ambient": "mob.magmoo.say",
+                        "death": "mob.magmoo.hurt",
+                        "hurt": "mob.magmoo.hurt",
+                        "step": {
+                            "pitch": [ 0.90, 1.10 ],
+                            "sound" : "mob.cow.step",
+                            "volume" : 0.650
+                         }
+                      },
+                      "pitch" : [ 0.80, 1.20 ],
+                      "volume" : 1.0
+                        }
+                    }
+                }
+            }

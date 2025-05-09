@@ -1,0 +1,44 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.default": {
+        "arrays": {
+        "textures": {
+          "Array.skins": [
+          "Texture.default",
+          "Texture.red",
+          "Texture.pink",
+          "Texture.yellow",
+          "Texture.blue",
+          "Texture.susred",
+          "Texture.scene",
+          "Texture.cake",
+          "Texture.dino",
+          "Texture.angel",
+          "Texture.turtle",
+          "Texture.propellor",
+          "Texture.clown",
+          "Texture.shark",
+          "Texture.slenderman",
+          "Texture.bee",
+          "Texture.creature",
+          "Texture.cat",
+          "Texture.pikachu",
+          "Texture.sonic",
+          "Texture.afton",
+          "Texture.unknown",
+          "Texture.susblue",
+          "Texture.susgreen",
+          "Texture.susyellow",
+          "Texture.green",
+          "Texture.dog"
+        ]
+      }
+    },
+    "geometry": "Geometry.default",
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "Array.skins[query.variant]" ]
+  }
+}
+}
+  

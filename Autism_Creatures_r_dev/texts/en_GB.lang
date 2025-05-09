@@ -1,0 +1,5 @@
+pack.name=§aAutism Creatures! [R] dev
+pack.description= AUTISM
+
+item.spawn_egg.entity.swag:autism_creature.name=Autism Egg
+entity.swag:autism_creature.name=Autism Creature
