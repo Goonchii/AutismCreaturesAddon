@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "AutismCreature",
-					"pivot": [-2.5, 4, 4.5]
+					"pivot": [-2.5, 0, -1.5]
 				},
 				{
 					"name": "Waist",
@@ -33,7 +33,18 @@
 							}
 						},
 						{"origin": [-4, 4, -6], "size": [8, 7, 12], "uv": [48, 51]},
-						{"origin": [-4.5, 3.5, -6.5], "size": [9, 8, 13], "uv": [54, 29]}
+						{"origin": [-4.5, 3.5, -6.5], "size": [9, 8, 13], "uv": [54, 29]},
+						{
+							"origin": [-2, 11, -2],
+							"size": [4, 2, 6],
+							"uv": {
+								"north": {"uv": [82, 61], "uv_size": [4, 2]},
+								"east": {"uv": [76, 61], "uv_size": [6, 2]},
+								"south": {"uv": [78, 59], "uv_size": [4, 2]},
+								"west": {"uv": [86, 61], "uv_size": [6, 2]},
+								"up": {"uv": [82, 55], "uv_size": [4, 6]}
+							}
+						}
 					]
 				},
 				{
@@ -89,22 +100,15 @@
 							"uv": {
 								"west": {"uv": [63, 72], "uv_size": [3, 12]}
 							}
-						},
-						{"origin": [-2, 21, -11], "size": [4, 4, 4], "uv": [0, 15]}
+						}
 					]
 				},
 				{
 					"name": "Halo",
 					"parent": "Accessories",
-					"pivot": [0, 11, -6],
+					"pivot": [0, 23, -9],
 					"cubes": [
-						{
-							"origin": [-6, 23, -15],
-							"size": [12, 0, 12],
-							"uv": {
-								"up": {"uv": [61, 0], "uv_size": [12, 12]}
-							}
-						}
+						{"origin": [-6, 23, -15], "size": [12, 0, 12], "uv": [49, 0]}
 					]
 				},
 				{
@@ -136,6 +140,57 @@
 							"size": [10, 10, 0],
 							"uv": {
 								"north": {"uv": [37, 52], "uv_size": [10, 10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Hat",
+					"parent": "Head",
+					"pivot": [0, 11, -6],
+					"cubes": [
+						{"origin": [-6, 21, -15], "size": [12, 12, 12], "uv": [0, 104]},
+						{"origin": [-2, 21, -11], "size": [4, 4, 4], "uv": [0, 15]},
+						{
+							"origin": [-12, 21.01, -21],
+							"size": [24, 0, 24],
+							"uv": {
+								"up": {"uv": [48, 104], "uv_size": [24, 24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ExtendedHat",
+					"parent": "Hat",
+					"pivot": [0, 11, -6],
+					"cubes": [
+						{
+							"origin": [-12, 21, -3],
+							"size": [6, 12, 0],
+							"uv": {
+								"north": {"uv": [72, 116], "uv_size": [6, 12]}
+							}
+						},
+						{
+							"origin": [6, 21, -15],
+							"size": [6, 12, 0],
+							"uv": {
+								"north": {"uv": [78, 116], "uv_size": [-6, 12]}
+							}
+						},
+						{
+							"origin": [-12, 21, -15],
+							"size": [6, 12, 0],
+							"uv": {
+								"north": {"uv": [72, 116], "uv_size": [6, 12]}
+							}
+						},
+						{
+							"origin": [6, 21, -3],
+							"size": [6, 12, 0],
+							"uv": {
+								"north": {"uv": [78, 116], "uv_size": [-6, 12]}
 							}
 						}
 					]
@@ -193,38 +248,6 @@
 					]
 				},
 				{
-					"name": "FLLeg",
-					"parent": "AutismCreature",
-					"pivot": [2.5, 4, -4.5],
-					"cubes": [
-						{"origin": [1, 0, -6], "size": [3, 4, 3], "uv": [0, 0]}
-					]
-				},
-				{
-					"name": "FRLeg",
-					"parent": "AutismCreature",
-					"pivot": [-2.5, 4, -4.5],
-					"cubes": [
-						{"origin": [-4, 0, -6], "size": [3, 4, 3], "uv": [12, 0]}
-					]
-				},
-				{
-					"name": "BLLeg",
-					"parent": "AutismCreature",
-					"pivot": [2.5, 4, 4.5],
-					"cubes": [
-						{"origin": [1, 0, 3], "size": [3, 4, 3], "uv": [0, 7]}
-					]
-				},
-				{
-					"name": "BRLeg",
-					"parent": "AutismCreature",
-					"pivot": [-2.5, 4, 4.5],
-					"cubes": [
-						{"origin": [-4, 0, 3], "size": [3, 4, 3], "uv": [12, 7]}
-					]
-				},
-				{
 					"name": "Particles",
 					"parent": "AutismCreature",
 					"pivot": [-2.5, 4, 4.5]
@@ -269,6 +292,43 @@
 								"north": {"uv": [120, 0], "uv_size": [8, 8]}
 							}
 						}
+					]
+				},
+				{
+					"name": "Legs",
+					"parent": "AutismCreature",
+					"pivot": [-2.5, 4, 4.5]
+				},
+				{
+					"name": "FLLeg",
+					"parent": "Legs",
+					"pivot": [2.5, 4, -4.5],
+					"cubes": [
+						{"origin": [1, 0, -6], "size": [3, 4, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "FRLeg",
+					"parent": "Legs",
+					"pivot": [-2.5, 4, -4.5],
+					"cubes": [
+						{"origin": [-4, 0, -6], "size": [3, 4, 3], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "BLLeg",
+					"parent": "Legs",
+					"pivot": [2.5, 4, 4.5],
+					"cubes": [
+						{"origin": [1, 0, 3], "size": [3, 4, 3], "uv": [0, 7]}
+					]
+				},
+				{
+					"name": "BRLeg",
+					"parent": "Legs",
+					"pivot": [-2.5, 4, 4.5],
+					"cubes": [
+						{"origin": [-4, 0, 3], "size": [3, 4, 3], "uv": [12, 7]}
 					]
 				}
 			]
