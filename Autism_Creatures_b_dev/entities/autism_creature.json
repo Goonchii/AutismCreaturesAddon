@@ -2147,61 +2147,245 @@
           ]
             },
             {
-              "filters": { "test": "is_biome", "value": "beach" },
+              "filters": { "test": "has_biome_tag", "value": "plains" },
               "randomize": [
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
-                },
-                {
-                  "weight": 1,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_turtle" ] }
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_angy" ] }
                 }
               ]
             },
             {
-              "filters": { "test": "is_biome", "value": "forest" },
+              "filters": { "test": "has_biome_tag", "value": "birch" },
               "randomize": [
                 {
-                  "weight": 40,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
-                },
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_confused" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "flower_forest" },
+              "randomize": [
                 {
-                  "weight": 30,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_yellow" ] }
-                },
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_happy" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "roofed" },
+              "randomize": [
                 {
-                  "weight": 30,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_red" ] }
-                },
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_miner" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "swamp" },
+              "randomize": [
                 {
-                  "weight": 30,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_blue" ] }
-                },
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_propellor" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "mangrove_swamp" },
+              "randomize": [
                 {
-                  "weight": 20,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
-                },
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_sad" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "jungle" },
+              "randomize": [
                 {
-                  "weight": 20,
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_sunglasses" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "taiga" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susblue" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "cherry_grove" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susgreen" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "desert" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susred" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "mesa" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_susyellow" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "savanna" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_winter" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "beach" },
+              "randomize": [
+                {
+                  "weight": 1,
                   "add": { "component_groups": [ "autism_creatures:autism_creature_bee" ] }
-                },
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "mooshroom_island" },
+              "randomize": [
                 {
-                  "weight": 20,
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_cat" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "extreme_hills" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_creature" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "mountains" },
+              "randomize": [
+                {
+                  "weight": 1,
                   "add": { "component_groups": [ "autism_creatures:autism_creature_dog" ] }
                 }
               ]
             },
             {
-              "filters": { "test": "is_biome", "value": "jungle" },
+              "filters": { "test": "has_biome_tag", "value": "ice_plains" },
               "randomize": [
                 {
                   "weight": 1,
-                  "add": { "component_groups": [ "autism_creatures:autism_creature_default" ] }
-                },
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_goldfish" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "ocean" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_mushroom" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "river" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_pink" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "caves" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_snowman" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "deep_dark" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "basalt_deltas" },
+              "randomize": [
                 {
                   "weight": 1,
                   "add": { "component_groups": [ "autism_creatures:autism_creature_turtle" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "nether_wastes" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_angel" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "soulsand_valley" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_clown" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "crimson_forest" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_devil" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "warped_forest" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_dino" ] }
+                }
+              ]
+            },
+            {
+              "filters": { "test": "has_biome_tag", "value": "the_end" },
+              "randomize": [
+                {
+                  "weight": 1,
+                  "add": { "component_groups": [ "autism_creatures:autism_creature_adventurer" ] }
                 }
               ]
             }
