@@ -6,7 +6,7 @@
         "materials": { "default": "skeleton" },
         "textures": {
           "default": "textures/entity/autism_creature/default",
-          "angy": "textures/entity/autism_creature/red",
+          "angy": "textures/entity/autism_creature/angy",
           "confused": "textures/entity/autism_creature/confused",
           "happy": "textures/entity/autism_creature/happy",
           "miner": "textures/entity/autism_creature/miner",
