@@ -76,7 +76,7 @@
           "autism_creatures:autism_creature_snowman": {
             "minecraft:variant": { "value": 20 }
           },
-          "autism_creatures:autism_creature_thunder": {
+          "autism_creatures:autism_creature_electric": {
             "minecraft:variant": { "value": 21 }
           },
           "autism_creatures:autism_creature_turtle": {
@@ -527,11 +527,11 @@
             }
           ]
         },
-        "thunder": {
+        "electric": {
           "randomize": [
             {
               "weight": 1,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             }
           ]
         },
@@ -819,7 +819,7 @@
             },
             {
               "weight": 1,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 1,
@@ -1208,7 +1208,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
@@ -1552,7 +1552,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
@@ -1592,7 +1592,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
@@ -2273,7 +2273,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
@@ -2627,7 +2627,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
@@ -2668,7 +2668,7 @@
             },
             {
               "weight": 20,
-              "add": { "component_groups": [ "autism_creatures:autism_creature_thunder" ] }
+              "add": { "component_groups": [ "autism_creatures:autism_creature_electric" ] }
             },
             {
               "weight": 10,
