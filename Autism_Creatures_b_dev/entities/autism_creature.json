@@ -160,7 +160,29 @@
                 "sleep_collider_height": 0.3,
                 "sleep_collider_width": 1,
                 "sleep_y_offset": 0.6,
-                "timeout_cooldown": 10
+                "timeout_cooldown": 10,
+                "can_nap_filters": {
+                  "all_of": [
+                    {
+                      "test": "in_water",
+                      "subject": "self",
+                      "operator": "==",
+                      "value": false
+                    },
+                    {
+                    "test": "on_ground",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": true
+                    },
+                    {
+                    "test": "in_overworld",
+                    "subject": "self",
+                    "operator": "==",
+                    "value": true
+                    }
+                  ]
+                }
             },
             "minecraft:damage_sensor": {
                 "triggers": {
