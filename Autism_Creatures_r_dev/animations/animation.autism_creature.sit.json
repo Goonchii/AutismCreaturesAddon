@@ -4,29 +4,24 @@
 		"animation.autism_creature.sit": {
 			"loop": true,
 			"bones": {
-				"Waist": {
-					"rotation": [-45, 0, 0],
-					"position": [0, 0, -1]
-				},
-				"Head": {
-					"rotation": [45, 0, 0]
-				},
-				"Tail": {
-					"rotation": [45, 0, 0]
+				"AutismCreature": {
+					"position": [0, -4, 0]
 				},
 				"FLLeg": {
-					"position": [0, 0, 2]
+					"rotation": [-90, 0, -90],
+					"position": [1, 1, 0]
 				},
 				"FRLeg": {
-					"position": [0, 0, 2]
+					"rotation": [-90, 0, 90],
+					"position": [-1, 1, 0]
 				},
 				"BLLeg": {
-					"rotation": [-90, -45, 0],
-					"position": [1, -2.5, -1]
+					"rotation": [-60, 0, -90],
+					"position": [1, 1, 0]
 				},
 				"BRLeg": {
-					"rotation": [-90, 45, 0],
-					"position": [-1, -2.5, -1]
+					"rotation": [-60, 0, 90],
+					"position": [-1, 1, 0]
 				}
 			}
 		}
