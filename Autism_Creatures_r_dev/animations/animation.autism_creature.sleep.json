@@ -7,7 +7,7 @@
 			"bones": {
 				"AutismCreature": {
 					"rotation": [0, 0, 90],
-					"position": [-4, 3, 0]
+					"position": [-4, 6.5, 0]
 				},
 				"Head": {
 					"rotation": {
