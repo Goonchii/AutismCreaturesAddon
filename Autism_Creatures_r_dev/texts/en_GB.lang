@@ -3,3 +3,5 @@ pack.description= AUTISM
 
 item.spawn_egg.entity.autism_creatures:autism_creature.name=Autism Egg
 entity.autism_creatures:autism_creature.name=Autism Creature
+
+title.autism_creatures:autism_creature_bed.name=Pet Bed
