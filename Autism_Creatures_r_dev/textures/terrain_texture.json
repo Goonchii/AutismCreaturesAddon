@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "autism_creatures",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "autism_creatures:autism_creature_bed": {
+            "textures": "textures/blocks/autism_creature_bed" 
+        }
+    }
+}
