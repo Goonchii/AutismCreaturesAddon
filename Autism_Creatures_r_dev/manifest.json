@@ -2,10 +2,10 @@
     "format_version": 2,
     "header": {
         "description": "pack.description",
-        "name": "pack.name",
+        "name": "Autism Creatures Addon",
         "uuid": "93c6851e-cef3-4d01-b973-7776d864650f",
         "version": [1, 0, 0],
-        "min_engine_version": [ 1, 19, 71 ]
+        "min_engine_version": [ 1, 21, 0 ]
     },
     "modules": [
         {
