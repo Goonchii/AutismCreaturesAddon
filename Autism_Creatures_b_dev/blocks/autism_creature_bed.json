@@ -74,11 +74,7 @@
                     200,
                     600
                 ]
-            },
-
-            "minecraft:custom_components": [
-                "autism_creatures:test_component"
-            ]
+            }
         }
     }
 }
