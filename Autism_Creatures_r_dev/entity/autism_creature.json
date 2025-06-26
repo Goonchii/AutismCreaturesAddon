@@ -64,7 +64,7 @@
         },
         "scripts": {
           "animate": [
-            { "walk": "query.modified_move_speed&&!query.is_sitting&&!q.is_baby" },
+            { "walk": "q.ground_speed > 1.0&&!query.is_sitting&&!q.is_baby" },
             {"look_at_target": "!query.is_sleeping"},
             {"sleeping": "query.is_sleeping"},
             { "idle": "!query.is_sleeping"},
