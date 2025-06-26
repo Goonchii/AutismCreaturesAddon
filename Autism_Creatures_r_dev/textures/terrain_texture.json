@@ -4,6 +4,17 @@
     "texture_data": {
         "autism_creatures:autism_creature_bed": {
             "textures": "textures/blocks/autism_creature_bed" 
+        },
+
+        "autism_creatures:autism_creature_bowl_0": {
+            "textures": "textures/blocks/autism_creature_bowl_0" 
+        },
+        "autism_creatures:autism_creature_bowl_1": {
+            "textures": "textures/blocks/autism_creature_bowl_1" 
+        },
+
+        "autism_creatures:autism_creature_spawner": {
+            "textures": "textures/blocks/autism_creature_spawner"
         }
     }
 }
