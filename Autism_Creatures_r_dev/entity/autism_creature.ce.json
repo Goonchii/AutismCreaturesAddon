@@ -71,7 +71,7 @@
             { "sitting": "query.is_sitting&&!q.is_baby" }
           ]
         },
-        "render_controllers": [ "controller.render.default" ],
+        "render_controllers": [ "controller.render.autism_creature" ],
         "spawn_egg": {
           "texture": "autism_creature_egg"
         }

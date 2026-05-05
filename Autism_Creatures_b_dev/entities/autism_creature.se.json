@@ -8,11 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "autism_creatures:autism_creature": {
-        "minecraft:loot": {
-          "table": "loot_tables/entities/"
-        }
-      },
+
       "autism_creatures:autism_creature_default": {
         "minecraft:variant": {
           "value": 0
@@ -297,6 +293,9 @@
       }
     },
     "components": {
+      "minecraft:loot": {
+          "table": "loot_tables/entities/autism_creature.json"
+        },
       "minecraft:damage_sensor": {
         "triggers": {
           "on_damage": {

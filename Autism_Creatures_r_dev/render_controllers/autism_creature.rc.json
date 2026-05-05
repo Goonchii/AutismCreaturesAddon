@@ -1,0 +1,63 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.autism_creature": {
+        "arrays": {
+        "textures": {
+          "Array.skins": [
+          "texture.default",
+          "texture.angy",
+          "texture.confused",
+          "texture.happy",
+          "texture.miner",
+          "texture.propellor",
+          "texture.sad",
+          "texture.sunglasses",
+          "texture.susblue",
+          "texture.susgreen",
+          "texture.susred",
+          "texture.susyellow",
+          "texture.winter",
+          "texture.bee",
+          "texture.cat",
+          "texture.creature",
+          "texture.dog",
+          "texture.goldfish",
+          "texture.mushroom",
+          "texture.pink",
+          "texture.snowman",
+          "texture.electric",
+          "texture.turtle",
+          "texture.angel",
+          "texture.clown",
+          "texture.devil",
+          "texture.dino",
+          "texture.adventurer",
+          "texture.ghost",
+          "texture.penguin",
+          "texture.lava",
+          "texture.pikachu",
+          "texture.pirate",
+          "texture.reindeer",
+          "texture.shark",
+          "texture.water",
+          "texture.afton",
+          "texture.cake",
+          "texture.chopper",
+          "texture.mario",
+          "texture.scene",
+          "texture.slenderman",
+          "texture.sonic",
+          "texture.wastelander",
+          "texture.pride",
+          "texture.unknown"
+          ]
+      }
+    },
+    "geometry": "geometry.default",
+        "materials": [ { "*": "material.default" } ],
+        "textures": [ "Array.skins[query.variant]" ]
+  }
+}
+}
+  
