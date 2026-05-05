@@ -1,1 +1,1 @@
-import "pet_bowl.js"import "spawner_component.js"
+import "spawner_component.js"
