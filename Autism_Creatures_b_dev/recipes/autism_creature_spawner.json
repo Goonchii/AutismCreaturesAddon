@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "autism_creatures:autism_creature_spawner"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "#P#",
+      "###"
+    ],
+    "key": {
+      "P": {
+        "item": "autism_creatures:autism_creature_spawn_egg"
+      },
+      "#": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "autism_creatures:autism_creature_spawner"
+    }
+  }
+  
+}
