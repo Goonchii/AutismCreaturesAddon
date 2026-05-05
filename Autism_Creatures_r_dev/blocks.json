@@ -3,9 +3,6 @@
     "autism_creatures:autism_creature_bed": {
         "sound": "wool"
     },
-    "autism_creatures:autism_creature_bowl": {
-        "sound": "wool"
-    },
     "autism_creatures:autism_creature_spawner": {
         "sound": "iron"
     }
