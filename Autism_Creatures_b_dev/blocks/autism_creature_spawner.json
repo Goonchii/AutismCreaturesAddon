@@ -35,7 +35,7 @@
             },
 
             "minecraft:custom_components": [
-                "autism_creatures:test_component"
+                "autism_creatures:spawner_component"
             ]
         }
     }

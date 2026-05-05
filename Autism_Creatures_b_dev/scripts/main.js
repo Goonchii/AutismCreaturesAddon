@@ -1,2 +1,1 @@
-import "test_component.js";
-import "pet_bowl.js"
+import "pet_bowl.js"import "spawner_component.js"

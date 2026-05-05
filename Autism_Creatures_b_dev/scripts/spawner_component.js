@@ -2,7 +2,7 @@ import { world } from '@minecraft/server';
 
 world.beforeEvents.worldInitialize.subscribe(eventData => {
   eventData.blockComponentRegistry.registerCustomComponent(
-    "autism_creatures:test_component",
+    "autism_creatures:spawner_component",
     {
       onTick(event) {
         const block = event.block;
