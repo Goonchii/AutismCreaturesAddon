@@ -13,7 +13,7 @@
     ],
     "key": {
       "P": {
-        "item": "minecraft:egg"
+        "tag": "minecraft:egg"
       },
       "#": {
         "item": "minecraft:sugar"
