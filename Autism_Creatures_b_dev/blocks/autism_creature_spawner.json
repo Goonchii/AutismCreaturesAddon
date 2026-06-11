@@ -5,8 +5,41 @@
             "identifier": "autism_creatures:autism_creature_spawner",
             "menu_category": {
                 "category": "items"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:cardinal_direction"],
+                    "y_rotation_offset": 90
+                }
             }
         },
+
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                 }
+            },
+             {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                 }
+             },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            }
+        ],
 
         "components": {
 
@@ -15,6 +48,19 @@
                 "*": {
                     "texture": "autism_creatures:autism_creature_spawner"
                 }
+            },
+
+            "minecraft:custom_components": [
+                "autism_creatures:spawner_component"
+            ],
+
+            "minecraft:collision_box": {
+                "origin": [ -8, 0, -8 ],
+                "size": [ 14, 2, 14 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -6, 0, -6 ],
+                "size": [ 12, 2, 12 ]
             },
 
             "minecraft:destructible_by_mining": {
@@ -32,11 +78,7 @@
                     200,
                     600
                 ]
-            },
-
-            "minecraft:custom_components": [
-                "autism_creatures:spawner_component"
-            ]
+            }
         }
     }
 }
