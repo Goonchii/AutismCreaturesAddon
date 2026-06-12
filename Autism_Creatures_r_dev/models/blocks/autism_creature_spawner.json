@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.0",
+	"format_version": "1.21.110",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -92,7 +92,31 @@
 						}
 					]
 				}
-			]
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [89, -180, 0],
+					"translation": [0, 3, 3.5],
+					"scale": [0.5, 0.5, 0.5],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"firstperson_righthand": {
+					"rotation": [0, 180, 0],
+					"translation": [0, 5.75, 0],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				},
+				"gui": {
+					"rotation": [30, 146, 0],
+					"translation": [0, 4.25, 0],
+					"scale": [0.93, 0.93, 0.93],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0],
+					"fit_to_frame": false
+				}
+			}
 		}
 	]
 }
