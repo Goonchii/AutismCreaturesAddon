@@ -5,7 +5,7 @@
         "name": "Autism Creatures Addon",
         "uuid": "630b597f-151f-4da5-af47-c7fa4c29ddfa",
         "version": [1, 0, 0],
-        "min_engine_version": [ 1, 21, 0 ]
+        "min_engine_version": [ 1, 26, 0 ]
     },
     "modules": [
         {
@@ -14,7 +14,7 @@
             "version": [1, 0, 0]
         },
         {
-          "description": "Test Scripting",
+          "description": "Autism Creature Scripting",
             "type": "script",
             "uuid": "cbb7c3d0-c8f8-43c3-a0b7-f4ab34a83d0e",
             "version": [1, 0, 0],
